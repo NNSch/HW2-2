@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 100; // баланс счёта до пополнения
-        int y = 350; // сумма пополения баланса
-        int z = (y > 1000) ? (y / 100) : 0; // бонусные рубли
-        int q = x + y + z; // пополненный баланс счёта
-        System.out.println("пополненный баланс счёта - " + q);
-        System.out.println("бонусные рубли - " + z);
+        int balance = 100; // баланс счёта до пополнения
+        int many = 1020; // сумма пополения баланса
+        int bonus = (many > 1000) ? (many / 100) : 0; // бонусные рубли
+        int check = balance + many + bonus; // пополненный баланс счёта
+        System.out.println("пополненный баланс счёта - " + check);
+        System.out.println("бонусные рубли - " + bonus);
     }
 }
